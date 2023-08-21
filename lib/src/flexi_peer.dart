@@ -376,12 +376,12 @@ class FlexiPeer extends StreamEventEmitter {
     _disconnected = true;
     _open = false;
 
-    socket.dispose();
-
     _lastServerId = currentId;
     _id = null;
 
     emit<String?>(SocketEventType.Disconnected.type, currentId);
+
+    socket.dispose();
   }
 
   DataConnection connect(String peer, {PeerConnectOption? options}) {
