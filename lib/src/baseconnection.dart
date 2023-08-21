@@ -1,9 +1,9 @@
 import 'package:events_emitter/emitters/stream_event_emitter.dart';
 import 'package:flutter_webrtc/flutter_webrtc.dart';
-import 'package:peerdart/src/enums.dart';
-import 'package:peerdart/src/option_interfaces.dart';
-import 'package:peerdart/src/flexi_peer.dart';
-import 'package:peerdart/src/servermessage.dart';
+import 'package:flexipeer/src/enums.dart';
+import 'package:flexipeer/src/option_interfaces.dart';
+import 'package:flexipeer/src/flexi_peer.dart';
+import 'package:flexipeer/src/servermessage.dart';
 
 abstract class BaseConnection extends StreamEventEmitter {
   BaseConnection(this.peer, this.provider, this.options) {

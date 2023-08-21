@@ -1,5 +1,5 @@
+import 'package:flexipeer/flexidart.dart';
 import 'package:flutter/material.dart';
-import 'package:peerdart/peerdart.dart';
 import 'package:flutter_webrtc/flutter_webrtc.dart';
 
 class CallExample extends StatefulWidget {
@@ -11,7 +11,7 @@ class CallExample extends StatefulWidget {
 
 class _CallExampleState extends State<CallExample> {
   final TextEditingController _controller = TextEditingController();
-  final Peer peer = Peer(options: PeerOptions(debug: LogLevel.All));
+  final FlexiPeer peer = FlexiPeer(options: PeerOptions(debug: LogLevel.All));
   final _localRenderer = RTCVideoRenderer();
   final _remoteRenderer = RTCVideoRenderer();
   bool inCall = false;

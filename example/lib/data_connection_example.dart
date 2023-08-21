@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
-import 'package:peerdart/peerdart.dart';
+import 'package:flexipeer/flexidart.dart';
 
 class DataConnectionExample extends StatefulWidget {
   const DataConnectionExample({Key? key}) : super(key: key);
@@ -11,7 +11,7 @@ class DataConnectionExample extends StatefulWidget {
 }
 
 class _DataConnectionExampleState extends State<DataConnectionExample> {
-  Peer peer = Peer(options: PeerOptions(debug: LogLevel.All));
+  FlexiPeer peer = FlexiPeer(options: PeerOptions(debug: LogLevel.All));
   final TextEditingController _controller = TextEditingController();
   String? peerId;
   late DataConnection conn;
@@ -105,7 +105,7 @@ class _DataConnectionExampleState extends State<DataConnectionExample> {
   }
 
   void reconnect() {
-    peer = Peer();
+    peer = FlexiPeer();
   }
 
   @override

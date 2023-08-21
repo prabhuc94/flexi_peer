@@ -2,13 +2,13 @@ import 'dart:convert';
 import 'dart:typed_data';
 
 import 'package:flutter_webrtc/flutter_webrtc.dart';
-import 'package:peerdart/src/baseconnection.dart';
-import 'package:peerdart/src/enums.dart';
-import 'package:peerdart/src/logger.dart';
-import 'package:peerdart/src/negotiator.dart';
-import 'package:peerdart/src/option_interfaces.dart';
-import 'package:peerdart/src/servermessage.dart';
-import 'package:peerdart/src/util.dart';
+import 'package:flexipeer/src/baseconnection.dart';
+import 'package:flexipeer/src/enums.dart';
+import 'package:flexipeer/src/logger.dart';
+import 'package:flexipeer/src/negotiator.dart';
+import 'package:flexipeer/src/option_interfaces.dart';
+import 'package:flexipeer/src/servermessage.dart';
+import 'package:flexipeer/src/util.dart';
 
 class DataConnection extends BaseConnection {
   DataConnection(super.peerId, super.provider, super.options) {

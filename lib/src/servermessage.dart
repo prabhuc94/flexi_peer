@@ -1,4 +1,4 @@
-import 'package:peerdart/src/enums.dart';
+import 'package:flexipeer/src/enums.dart';
 
 class ServerMessage {
   ServerMessage({
