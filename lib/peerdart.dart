@@ -3,7 +3,7 @@
 /// More dartdocs go here.
 library peerdart;
 
-export 'src/peer.dart';
+export 'src/flexi_peer.dart';
 export 'src/enums.dart';
 export 'src/option_interfaces.dart';
 export 'src/dataconnection.dart';

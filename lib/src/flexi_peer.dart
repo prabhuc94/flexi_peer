@@ -12,8 +12,8 @@ import 'package:peerdart/src/servermessage.dart';
 import 'package:peerdart/src/socket.dart';
 import 'package:peerdart/src/util.dart';
 
-class Peer extends StreamEventEmitter {
-  Peer({String? id, PeerOptions? options}) {
+class FlexiPeer extends StreamEventEmitter {
+  FlexiPeer({String? id, PeerOptions? options}) {
     String? userId = id;
 
     PeerOptions initOptions = PeerOptions(

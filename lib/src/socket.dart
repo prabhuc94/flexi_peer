@@ -59,9 +59,9 @@ class Socket extends StreamEventEmitter {
 
       logger.log("Socket closed.");
 
-      _cleanup();
-
       emit<void>(SocketEventType.Disconnected.type, null);
+
+      _cleanup();
     });
 
     _sendQueuedMessages();
@@ -94,9 +94,9 @@ class Socket extends StreamEventEmitter {
       return;
     }
 
-    _cleanup();
-
     _disconnected = true;
+
+    _cleanup();
   }
 
   void send(Map<String, dynamic> data) {
