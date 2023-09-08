@@ -2,7 +2,23 @@
 
 const _DEFAULT_CONFIG = {
   'iceServers': [
-    {'urls': "stun:stun.bethesda.net:3478"},
+    {
+      'urls': [
+        "stun:stun.bethesda.net:3478",
+        "stun2.3cx.com:3478",
+        "stun3.3cx.com:3478",
+        "stun4.3cx.com:3478",
+        "stun.l.google.com:19302",
+        "stun1.l.google.com:19302",
+        "stun2.l.google.com:19302",
+        "stun3.l.google.com:19302",
+        "stun4.l.google.com:19302",
+        "stun1.l.google.com:19305",
+        "stun2.l.google.com:19305",
+        "stun3.l.google.com:19305",
+        "stun4.l.google.com:19305"
+      ]
+    },
     {
       "urls": [
         "turn:eu-0.turn.peerjs.com:3478",
@@ -11,6 +27,11 @@ const _DEFAULT_CONFIG = {
       "username": "peerjs",
       "credential": "peerjsp",
     },
+    {
+      "urls": 'turn:openrelay.metered.ca:80',
+      "username": 'openrelayproject',
+      "credentials": 'openrelayproject'
+    }
   ],
   'sdpSemantics': "unified-plan"
 };
