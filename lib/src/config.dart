@@ -15,19 +15,19 @@ const _DEFAULT_CONFIG = {
         "stun4.l.google.com:19305"
       ]
     },
-    {
-      "urls": [
-        "turn:eu-0.turn.peerjs.com:3478",
-        "turn:us-0.turn.peerjs.com:3478",
-      ],
-      "username": "peerjs",
-      "credential": "peerjsp",
-    },
     // {
-    //   "urls": 'turn:openrelay.metered.ca:80',
-    //   "username": 'openrelayproject',
-    //   "credentials": 'openrelayproject'
-    // }
+    //   "urls": [
+    //     "turn:eu-0.turn.peerjs.com:3478",
+    //     "turn:us-0.turn.peerjs.com:3478",
+    //   ],
+    //   "username": "peerjs",
+    //   "credential": "peerjsp",
+    // },
+    {
+      "urls": 'turn:openrelay.metered.ca:80',
+      "username": 'openrelayproject',
+      "credentials": 'openrelayproject'
+    }
   ],
   'sdpSemantics': "unified-plan"
 };
