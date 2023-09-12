@@ -21,19 +21,17 @@ const _DEFAULT_CONFIG = {
     // {
     //   "urls" : "stun:stun.bethesda.net:3478",
     // },
+    // {
+    //   "urls" : "stun1.l.google.com:19302",
+    // },
+    // {
+    //   "urls" : "stun1.l.google.com:19305",
+    // },
     {
-      "urls" : "stun1.l.google.com:19302",
-    },
-    {
-      "urls" : "stun1.l.google.com:19305",
-    },
-    {
-      "urls" : "turn:relay.backups.cz",
-      "username" : "webrtc",
-      "credential" : "webrtc",
-    },
-    {
-      "urls" : "turn:relay.backups.cz?transport=tcp",
+      "urls" : [
+        "turn:relay.backups.cz",
+        "turn:relay.backups.cz?transport=tcp"
+      ],
       "username" : "webrtc",
       "credential" : "webrtc",
     },
