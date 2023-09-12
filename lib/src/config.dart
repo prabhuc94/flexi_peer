@@ -26,9 +26,9 @@ const _DEFAULT_CONFIG = {
       "username" : "webrtc",
       "credential" : "webrtc",
     },
-    {
-      "urls" : "stun:stun.bethesda.net:3478",
-    },
+    // {
+    //   "urls" : "stun:stun.bethesda.net:3478",
+    // },
     {
       "urls": [
         "turn:eu-0.turn.peerjs.com:3478",
