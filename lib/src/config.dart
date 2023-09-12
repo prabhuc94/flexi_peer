@@ -19,15 +19,15 @@ const _DEFAULT_CONFIG = {
       "urls" : "stun:relay.backups.cz",
     },
     {
-      "urls" : "stun:stun.bethesda.net:3478",
-    },
-    {
       "urls" : [
         "turn:relay.backups.cz",
         "turn:relay.backups.cz?transport=tcp"
       ],
       "username" : "webrtc",
       "credential" : "webrtc",
+    },
+    {
+      "urls" : "stun:stun.bethesda.net:3478",
     },
     {
       "urls": [
