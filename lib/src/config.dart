@@ -15,17 +15,11 @@ const _DEFAULT_CONFIG = {
         "stun4.l.google.com:19305"
       ]
     },*/
-    // {
-    //   "urls" : "stun:relay.backups.cz",
-    // },
-    // {
-    //   "urls" : "stun:stun.bethesda.net:3478",
-    // },
-    // {
-    //   "urls" : "stun1.l.google.com:19302",
-    // },
     {
-      "urls" : "stun1.l.google.com:19305",
+      "urls" : "stun:relay.backups.cz",
+    },
+    {
+      "urls" : "stun:stun.bethesda.net:3478",
     },
     {
       "urls" : [
