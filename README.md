@@ -1,4 +1,4 @@
-# PeerDart: Simple peer-to-peer with WebRTC
+# FlexiPeer: Simple peer-to-peer with WebRTC
 
 PeerDart provides a complete, configurable, and easy-to-use peer-to-peer API built on top of WebRTC, supporting both data channels and media streams.
 
@@ -22,7 +22,7 @@ Here's an example application that uses both media and data connections: [Exampl
 **Create a Peer**
 
 ```dart
-final Peer peer = Peer("pick-an-id");
+final FlexiPeer peer = FlexiPeer("pick-an-id");
 // You can pick your own id or omit the id if you want to get a random one from the server.
 ```
 
@@ -119,4 +119,4 @@ Works both on mobile and web browsers (Chrome tested.).
 
 ## License
 
-PeerDart is licensed under the [MIT License](https://tldrlegal.com/l/mit).
+FlexiPeer is licensed under the [MIT License](https://tldrlegal.com/l/mit).
