@@ -95,8 +95,8 @@ class Socket extends StreamEventEmitter {
     }
 
     _disconnected = true;
-    controller.close();  // Close all the emitters
-    _socket?.sink.close();
+    // controller.close();  // Close all the emitters
+    // _socket?.sink.close();
     _cleanup();
   }
 

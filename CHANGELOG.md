@@ -7,3 +7,6 @@
 
 ## 0.0.3
 - Reconnection issue fixing
+
+## 0.0.4
+- Commented socket controller closing
