@@ -10,3 +10,6 @@
 
 ## 0.0.4
 - Commented socket controller closing
+
+## 0.0.5
+- Fixed call outside local network bug

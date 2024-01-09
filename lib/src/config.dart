@@ -2,32 +2,17 @@
 
 const _DEFAULT_CONFIG = {
   'iceServers': [
-    /*{
-      'urls': [
-        "stun:stun.bethesda.net:3478",
-        "stun1.l.google.com:19302",
-        "stun2.l.google.com:19302",
-        "stun3.l.google.com:19302",
-        "stun4.l.google.com:19302",
-        "stun1.l.google.com:19305",
-        "stun2.l.google.com:19305",
-        "stun3.l.google.com:19305",
-        "stun4.l.google.com:19305"
-      ]
-    },*/
-    {
-      "urls" : "stun:relay.backups.cz",
-    },
-    {
-      "urls" : [
-        "turn:relay.backups.cz",
-        "turn:relay.backups.cz?transport=tcp"
-      ],
-      "username" : "webrtc",
-      "credential" : "webrtc",
-    },
+    {'urls': "stun:stun.bethesda.net:3478"},
     // {
-    //   "urls" : "stun:stun.bethesda.net:3478",
+      // "urls" : "stun:relay.backups.cz",
+    // },
+    // {
+    //   "urls" : [
+    //     "turn:relay.backups.cz",
+    //     "turn:relay.backups.cz?transport=tcp"
+    //   ],
+    //   "username" : "webrtc",
+    //   "credential" : "webrtc",
     // },
     {
       "urls": [
