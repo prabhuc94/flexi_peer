@@ -1,5 +1,5 @@
 name: flexipeer
-version: 0.0.5
+version: 0.0.6
 homepage: https://github.com/prabhuc94/flexi_peer
 description: Simple peer-to-peer with WebRTC for Dart. PeerJS port for Flutter.
 repository: https://github.com/prabhuc94/flexi_peer
@@ -7,10 +7,10 @@ environment:
   sdk: '>=3.1.0 <4.0.0'
   flutter: '>=3.3.0'
 dependencies: 
-  http: ^1.1.0
-  uuid: ^4.0.0
-  flutter_webrtc: ^0.9.41
-  web_socket_channel: ^2.4.0
+  http: ^1.1.2
+  uuid: ^4.3.1
+  flutter_webrtc: ^0.9.47
+  web_socket_channel: ^2.4.3
   events_emitter: ^0.5.2
 dev_dependencies: 
   lints: ^2.0.0

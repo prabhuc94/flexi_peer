@@ -13,3 +13,6 @@
 
 ## 0.0.5
 - Fixed call outside local network bug
+
+## 0.0.6
+- Increased library versions
